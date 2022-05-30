@@ -13,10 +13,10 @@
 
 
 :root {
-    --color-bg: #1f1f38;
+    --color-bg: #04243d;
     --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant:rgba(77,181,255,0.4);
+    --color-primary: #04FF85;
+    --color-primary-variant:#00C5FF;
     --color-white: #EEEEEE;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -40,7 +40,7 @@ body{
     color: car(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
-    background-color: darkblue;
+    background-color: var(--color-bg);
 
 }
 
@@ -52,13 +52,16 @@ body{
 
 h1, h2, h3,h4,h5{
     font-weight: 500;
+    color: var(--color-white);
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 5rem;
+    
 }
 section{
     margin-top: 8rem;
+    height: 100vh;
 }
 section > h2, section > h5{
     text-align: center;
@@ -88,7 +91,7 @@ a:hover{
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: wpx solid var(--color-primary);
+    border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
 .btn:hover{
