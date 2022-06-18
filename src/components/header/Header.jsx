@@ -2,9 +2,9 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
-import YOU from '../../assets/logo192.png'
+import YOU from '../../assets/ownbit.svg'
 import HeaderSocial from './HeaderSocials'
-import {FaGithub} from 'react-icons/fa'
+
 
 
 function Header() {
@@ -18,9 +18,6 @@ function Header() {
       <HeaderSocial />
       <div className='you'>
       <img src={YOU} alt="Elias Braem" />
-      </div>
-      <div className='love'>
-      <FaGithub/>
       </div>
       
 <div className='me'>
