@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/ebr.png'
 import {FaAward} from 'react-icons/fa'
 import {HiOutlineUsers} from 'react-icons/hi'
 
@@ -23,7 +23,7 @@ function About() {
         <article className='about__card'>
           <FaAward className='about__icon'/>
           <h5>Erfahrung</h5>
-          <small>3 Jahre</small>
+          <small>5 Jahre</small>
         </article>
         <article className='about__card'>
           <HiOutlineUsers className='about__icon'/>
@@ -33,15 +33,14 @@ function About() {
         <article className='about__card'>
           <FaAward className='about__icon'/>
           <h5>Projekte</h5>
-          <small>20</small>
+          <small>20+</small>
         </article>
       </div>
-      
-      <p>
-        Ich weiss, 10 Projekte sind noch nicht gerade viel, ich konnte aber in jedem von ihnen sehr viel lernen. Vom Offerien übers Design bis hin zur technischen Umsetzung. Web ist meine absolute Leidenschaft. 
-        In meinem Studium zum Bachelor Informatik erhalte ich Einblick in viele verschiedene Technologien. Keine begeisterte mich So sehr wie die Webentwicklung. Um meine Skills nun zu verbessern, möchte ich noch mehr Erfahrung im Arbeitsalltag dazugewinnen.  
-           </p>
-      <a href="#contact" className='btn btn-primary'>Kontaktiere mich!</a>
+           <p>
+            Seit meiner Lehre zum Mediamatiker begeistert mich die Webentwicklung. In meinem Studium zum Informatiker, welches ich momentan an der Fachhoschule Nordwestschweiz in Brugg absolviere, hat sich dieses Interesse zu einer leidenschaft entwicklet. 
+            Nun möchte ich den nächsten Schritt machen und von einfachen Webseiten zu komplexeren Anwendungen und integrationen fortschreiten. Ich bin mega motiviert, gemeinsam mit den Profis von Ownbit solche Problemstellungen anzugehen und richtig cooles Zeug zu produzierten!
+          </p>
+      <a href="#contact" className='btn btn-primary'>Kontaktiert mich!</a>
     </div>
     </div>
     

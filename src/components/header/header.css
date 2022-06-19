@@ -52,11 +52,11 @@ position: relative;
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 3rem 4rem 1.5rem 4rem;
 }
 
 .you{
-    background: linear-gradient(var(--color-primary-variant), transparent);
+    background: linear-gradient(black, transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -65,7 +65,7 @@ position: relative;
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 5rem 5rem 5rem;
+    padding: 8rem 3rem 3rem 3rem;
 }
 
 /*
