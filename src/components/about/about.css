@@ -7,7 +7,7 @@
 .about__me{
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
+
     background: linear-gradient(
         45deg, 
         transparent, 
@@ -19,7 +19,7 @@
     
 }
 .about__me-image{
-    border-radius: 2rem;
+
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
@@ -35,7 +35,7 @@
 .about__card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border-radius: 1rem;
+
     padding: 2rem;
     text-align: center;
 

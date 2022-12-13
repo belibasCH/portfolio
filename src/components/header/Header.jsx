@@ -13,11 +13,14 @@ function Header() {
      <div className="container header__container">
        <h5>Hallo, Ich bin</h5>
        <h1>Elias Bräm</h1>
-       <h5 className='text-light'>Web Entwickler</h5>
+       <h5 className='text-light'>Junior Software Entwickler</h5>
       <CTA />
       <HeaderSocial />
       <div className='you'>
-      <img src={YOU} alt="Elias Braem" />
+      <p id="panter">panter</p>
+      <p id="panter">panter</p>
+      <p id="panter">panter</p>
+      <p id="panter">panter</p>
       </div>
       
 <div className='me'>

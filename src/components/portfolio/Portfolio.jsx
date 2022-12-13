@@ -56,6 +56,7 @@ function Portfolio() {
             <a href="https://zakudesign.ch/" target="_blank" className='portfolio__btn'>zakudesign.ch</a>
             <a href="https://picboxi.ch/" target="_blank" className='portfolio__btn'>picboxi.ch</a>
             <a href="https://bawatec.ch/" target="_blank" className='portfolio__btn'>bawatec.ch</a>
+            <a href="https://bawatec.ch/" target="_blank" className='portfolio__btn'>nexustelecom.com (Joomla)</a>
           </div>
         </div>
       </article>
