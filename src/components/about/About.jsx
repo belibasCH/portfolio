@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/ebr.png'
 import {FaAward} from 'react-icons/fa'
-import {HiOutlineUsers} from 'react-icons/hi'
+import {HiThumbUp} from 'react-icons/hi'
 
 
 function About() {
@@ -20,25 +20,25 @@ function About() {
     
     <div className="about__content">
       <div className="about__cards">
-        <article className='about__card'>
+      <article className='about__card'>
           <FaAward className='about__icon'/>
-          <h5>Erfahrung</h5>
-          <small>5 Jahre</small>
+          <h5>Studium</h5>
+          <small>Semester 6 von 8 <br></br></small>
+          <small>140 von 180 Credits <br></br></small>
+          <small>Abschluss 2024</small>
         </article>
         <article className='about__card'>
-          <HiOutlineUsers className='about__icon'/>
-          <h5>Kunden</h5>
-          <small>10+</small>
+          <HiThumbUp className='about__icon'/>
+          <h5>Web-Erfahrung</h5>
+          <small>5 Jahre Wordpress<br></br></small>
+          <small>1 Jahr React</small>
         </article>
-        <article className='about__card'>
-          <FaAward className='about__icon'/>
-          <h5>Projekte</h5>
-          <small>20+</small>
-        </article>
+        
+        
       </div>
            <p>
             Seit meiner Lehre zum Mediamatiker begeistert mich die Webentwicklung. In meinem Studium zum Informatiker, welches ich momentan an der Fachhoschule Nordwestschweiz in Brugg absolviere, hat sich dieses Interesse zu einer leidenschaft entwicklet. 
-            Nun möchte ich den nächsten Schritt machen und von einfachen Webseiten zu komplexeren Anwendungen und integrationen fortschreiten. Ich bin mega motiviert, gemeinsam mit den Profis von Ownbit solche Problemstellungen anzugehen und richtig cooles Zeug zu produzierten!
+            Nun möchte ich den nächsten Schritt machen und von einfachen Webseiten zu komplexeren Anwendungen und integrationen fortschreiten. Ich bin sehr motiviert, mit einem coolen Team aus Profis solche Problemstellungen anzugehen und richtig cooles Zeug zu coden!
           </p>
       <a href="#contact" className='btn btn-primary'>Kontaktiert mich!</a>
     </div>

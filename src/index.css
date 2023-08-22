@@ -16,10 +16,10 @@
 :root {
     --color-bg: #1b1c1e;
     --color-bg-variant: #0f1011;
-    --color-primary: #206282;
+    --color-primary: #1d5977;
     --color-primary-variant:#06344b;
     --color-white: #FFFFFF;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-light: rgba(255, 255, 255, 0.863);
 
     --transition: all 400ms ease;
 
@@ -40,7 +40,10 @@ body{
     background: car(--color-bg);
     color: car(--color-white);
     line-height: 1.7;
-    /*background-image: url(../src/assets/bg-texture.png);*/
+    background-image: url(../src/assets/background.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: var(--color-bg);
 
 }
@@ -88,9 +91,10 @@ a:hover{
     width: max-content;
     display: inline-block;
     color: var(--color-white);
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     cursor: pointer;
     transition: var(--transition);
+    border: 2px solid var(--color-primary);
 }
 .btn:hover{
     outline: rgba(32, 99, 132, 0.5) solid 4px;
@@ -124,6 +128,7 @@ section{
     }
 section > h2{
     margin-top: 2rem;
+
 }
     
 }

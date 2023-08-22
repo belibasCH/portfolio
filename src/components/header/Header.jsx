@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/ebr_seite.png'
-import YOU from '../../assets/ownbit.svg'
+import Background from '../../assets/background.jpg'
 import HeaderSocial from './HeaderSocials'
 
 
@@ -17,10 +17,10 @@ function Header() {
       <CTA />
       <HeaderSocial />
       <div className='you'>
-      <p id="panter">panter</p>
-      <p id="panter">panter</p>
-      <p id="panter">panter</p>
-      <p id="panter">panter</p>
+      <p className='panter'>panter</p>
+      <p className='panter'>panter</p>
+      <p className='panter'>panter</p>
+      <p className='panter-primary'>panter</p>
       </div>
       
 <div className='me'>

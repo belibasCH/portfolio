@@ -13,85 +13,73 @@ function Experience() {
       <div className="container experience__container">
 
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>Web-Development</h3>
           <div className="experience__content">
-            <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon' />
-              <div>
-              <h4>HTML</h4>
-              <small>8 von 10</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon' />
-              <div>
-              <h4>CSS</h4>
-              <small>8 von 10</small>
-              </div>
-            </article>
+
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>JS</h4>
+              <h4>React</h4>
+              <small>3 von 10</small>
+              </div>
+            </article>  
+
+            <article className='experience__details'>
+              <AiOutlineCheckCircle className='experience__details-icon'/>
+              <div>
+              <h4>Javascript</h4>
               <small>5 von 10</small>
               </div>
+            </article>  
+
+            <article className='experience__details'>
+              <AiOutlineCheckCircle className='experience__details-icon' />
+              <div>
+              <h4>HTML, CSS</h4>
+              <small>8 von 10</small>
+              </div>
             </article>
+           
+
+
+            <article className='experience__details'>
+              <AiOutlineCheckCircle className='experience__details-icon'/>
+              <div>
+              <h4>Java Spring</h4>
+              <small>7 von 10</small>
+              </div>
+            </article>
+
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
               <div>
               <h4>Wordpress</h4>
-              <small>8 von 10</small>
+              <small>5 von 10</small>
               </div>
             </article>
-            <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
-              <div>
-              <h4>Bootstrap</h4>
-              <small>7 von 10</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
-              <div>
-              <h4>Flutter</h4>
-              <small>8 von 10</small>
-              </div>
-            </article>
+          
           </div>
 
         </div>
         <div className="experience__backend">
-        <h3>Backend Development</h3>
+        <h3>App-Development</h3>
           <div className="experience__content">
+                     
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Java</h4>
-              <small>5 von 10</small>
+              <h4>Flutter & Dart</h4>
+              <small>8 von 10</small>
               </div>
             </article>
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
               <div>
-
-              <h4>PHP</h4>
-              <small>3 von 10</small>
+              <h4>Kotlin & Jetpack Compose</h4>
+              <small>6 von 10</small>
               </div>
             </article>
-            <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
-              <div>
-              <h4>MySql</h4>
-              <small>3 von 10</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
-              <div>
-              <h4>Dart</h4>
-              <small>5 von 10</small>
-              </div>
-            </article>
+            
           </div>
 
         </div>
