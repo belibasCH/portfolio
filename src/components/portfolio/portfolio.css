@@ -2,12 +2,20 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
+    padding-bottom: 4rem;
 }
 .portfolio__card{
     padding: 1.3rem;
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     transition: var(--transition);
+}
+
+.portfolio__card h4{
+    font-size: 0.8rem;
+    color: var(--color-white);
+    font-weight: 300;
+    
 }
 .portfolio__card:hover{
     background: transparent;
@@ -21,19 +29,17 @@
     margin: 1.2rem 0 0 0;
 }
 .portfolio__card span{
-    color: var(--color-primary);
+    color: var(--color-white);
+    font-weight: 500;
     font-style: italic;
 }
-.portfolio__card h4{
-    margin: 0 0 2rem 0 ;
-    color: var(--color-white);
-}
+
 .portfolio__buttons{
     display: flex;
     flex-wrap:  wrap;
     flex-direction: row;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
 
 }
 

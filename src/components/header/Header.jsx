@@ -4,6 +4,7 @@ import CTA from './CTA'
 import ME from '../../assets/ebr_seite.png'
 import Background from '../../assets/background.jpg'
 import HeaderSocial from './HeaderSocials'
+import SCROLL from '../../assets/scroll.svg'
 
 
 
@@ -26,7 +27,7 @@ function Header() {
 <div className='me'>
       <img src={ME} alt="Elias Braem" />
       </div>
-      <a href="#contact" className='scroll__down'>Scroll down</a>
+      <a href="#experience" className='scroll__down'><img src={SCROLL} alt="Scroll image"></img></a>
       
      </div>
    </header>

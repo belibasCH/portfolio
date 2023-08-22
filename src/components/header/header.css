@@ -89,13 +89,23 @@ position: relative;
 
 .scroll__down{
     position: absolute;
-    right: -2.3rem;
+    right: -5rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
-}
-
+  }
+  .scroll__down img {
+    animation: 16s linear 0s infinite normal none running scroll__down; 
+  }
+    @keyframes scroll__down {
+        0% {
+        transform: rotate(0deg)
+        }
+        100% {
+        transform: rotate(360deg);
+        }
+    }
 /*================================= Responsive ==========================*/
 
 /*===================Media Medium ============*/

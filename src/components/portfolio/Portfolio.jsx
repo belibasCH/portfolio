@@ -6,6 +6,7 @@ import IVIS from '../../assets/ivis.jpg'
 import INTERNETTER from '../../assets/internetter.jpg'
 import TISCHMESSE from '../../assets/Tischmesse.png'
 import SEVENSAT from '../../assets/sevenSat.jpg'
+import WEBCHAT from '../../assets/WebChat_s.png'
 
 
 function Portfolio() {
@@ -59,88 +60,26 @@ function Portfolio() {
             </div>
           </div>
         </article>
-
-
-
-        <article className='portfolio__card'>
-          <div className="portfolio__content">
-            <div className=''>
-              <img src={MEDINSPECT} alt="Portfolio1" className='portfolio__image' />
-            </div>
-            <h3>App "7Sat" - Projektteam (3 Pers)</h3>
-            <h4>Tech Stack: Kotlin, Jetpack Compose</h4>
-            <div className='portfolio__buttons'>
-              <a href="https://play.google.com/store/apps/details?id=seven.sat&hl=de&gl=US" target="_blank" className='portfolio__btn'>PlayStore</a>
-              <a href="https://github.com/emoba-fhnw/ws6c-7sat" target="_blank" className='portfolio__btn'>GitHub</a>
-              <a href="https://www.figma.com/proto/HTHiQvk56sKBFZPzemw6uc/Gruppe-7---Andri%2C-Tobi%2C-Elias?page-id=9%3A60&node-id=73-5498&starting-point-node-id=87%3A5465&mode=design&t=Cy8riQnhuT0D929s-1" target="_blank" className='portfolio__btn portfolio__btn-primary'>Figma</a>
-
-            </div>
-          </div>
-        </article>
-
-        <article className='portfolio__card'>
-          <div className="portfolio__content">
-            <div className=''>
-              <img src={MEDINSPECT} alt="Portfolio1" className='portfolio__image' />
-            </div>
-            <h3>App für chronisch kranke Personen - Projektteam (8 Pers)</h3>
-            <h4>Tech Stack: Flutter, Dart, SQlite, Figma</h4>
-            <div className='portfolio__buttons'>
-              <a href="https://gotomo.ch/en/portfolio/medinspect-ehealth-app/" target="_blank" className='portfolio__btn portfolio__btn-primary'>Figma</a>
-            </div>
-          </div>
-        </article>
-        <article className='portfolio__card'>
-          <div className="portfolio__content">
-            <div className=''>
-              <img src={IVIS} alt="Portfolio1" className='portfolio__image' />
-            </div>
-            <h3>Informationsvisualisierung Wirtschaftsförderung</h3>
-            <h4>Tech Stack: Java Script, D3, HTML, CSS</h4>
-            <div className='portfolio__buttons'>
-              <a href="https://ivis.eliasbraem.ch/" target="_blank" className='portfolio__btn portfolio__btn-primary'>Live Demo</a>
-              <a href="https://github.com/belibasCH/informationsvisualisierung" target="_blank" className='portfolio__btn'>GitHub</a>
-            </div>
-          </div>
-        </article>
-
-        <article className='portfolio__card'>
-          <div className="portfolio__content">
-            <div className=''>
-              <img src={IVIS} alt="Portfolio1" className='portfolio__image' />
-            </div>
-            <h3>End-to-end verschlüsselter Webchat</h3>
-            <h4>Elm, Haskell, Docker</h4>
-            <div className='portfolio__buttons'>
-              <a href="" target="_blank" className='portfolio__btn portfolio__btn-primary'>Demo Video</a>
-              <a href="" target="_blank" className='portfolio__btn'>Figma</a>
-            </div>
-          </div>
-        </article>
-
-
-
-
+    
       </div>
-      <h5>Software ist ein Teamsport</h5>
+      <h5>Softwareentwicklung ist ein Teamsport</h5>
       <h2>Arbeiten im Team</h2>
       <div className="container portfolio__container">
-
-
-
-
-
-
         <article className='portfolio__card'>
           <div className="portfolio__content">
             <div className=''>
-              <img src={IVIS} alt="Portfolio1" className='portfolio__image' />
+              <img src={MEDINSPECT} alt="Portfolio1" className='portfolio__image' />
             </div>
-            <h3>Informationsvisualisierung Wirtschaftsförderung</h3>
-            <h4>Tech Stack: Java Script, D3, HTML, CSS</h4>
+            <h3>App für chronisch kranke Personen</h3>
+            <h4><span>
+              Mit Agile Coach Peter Spörri
+              </span></h4>
+            <h4>Tech Stack: Flutter, Dart, SQlite, Figma</h4>
+            <h4>Team: 8 Personen - Mitglied Scrum Dev Team - Mehrheitlich Entwicklung Flutter Frontend</h4>
             <div className='portfolio__buttons'>
-              <a href="https://ivis.eliasbraem.ch/" target="_blank" className='portfolio__btn portfolio__btn-primary'>Live Demo</a>
-              <a href="https://github.com/belibasCH/informationsvisualisierung" target="_blank" className='portfolio__btn'>GitHub</a>
+              <a href="https://gotomo.ch/en/portfolio/medinspect-ehealth-app/" target="_blank" className='portfolio__btn portfolio__btn-primary'>Gotomo (Auftraggeber)</a>
+
+
             </div>
           </div>
         </article>
@@ -149,8 +88,9 @@ function Portfolio() {
             <div className=''>
               <img src={SEVENSAT} alt="Portfolio1" className='portfolio__image' />
             </div>
-            <h3>App "7Sat"</h3>
+            <h3>App "7Sat - Satellite Tracker"</h3>
             <h4>Tech Stack: Kotlin, Jetpack Compose</h4>
+            <h4>Team: 3 Personen - Mein Teil: Figma Design, Fontend Entwicklung</h4>
             <div className='portfolio__buttons'>
               <a href="" target="_blank" className='portfolio__btn portfolio__btn-primary'>Figma</a>
               <a href="" target="_blank" className='portfolio__btn'>AppStore</a>
@@ -159,23 +99,36 @@ function Portfolio() {
             </div>
           </div>
         </article>
-
         <article className='portfolio__card'>
           <div className="portfolio__content">
             <div className=''>
-              <img src={MEDINSPECT} alt="Portfolio1" className='portfolio__image' />
+              <img src={WEBCHAT} alt="Portfolio1" className='portfolio__image' />
             </div>
-            <h3>App für chronisch kranke Personen</h3>
-            <h4>Tech Stack: Flutter, Dart, SQlite, Figma</h4>
-            <h4>Mit Agile Coach Peter Spörri</h4>
+            <h3>End-to-end verschlüsselter Webchat</h3>
+            <h4>Elm, Haskell, Docker, Figma</h4>
+            <h4>Team: 2 Personen - Mein Teil: ELM Frontend, Figma Design</h4>
             <div className='portfolio__buttons'>
-              <a href="https://gotomo.ch/en/portfolio/medinspect-ehealth-app/" target="_blank" className='portfolio__btn portfolio__btn-primary'>Gotomo (Auftraggeber)</a>
-
-
+              <a href="" target="_blank" className='portfolio__btn portfolio__btn-primary'>Demo Video</a>
+              <a href="" target="_blank" className='portfolio__btn'>GitHub-Frontend</a>
+              <a href="" target="_blank" className='portfolio__btn'>GitHub-Backend</a>
             </div>
           </div>
         </article>
 
+        <article className='portfolio__card'>
+          <div className="portfolio__content">
+            <div className=''>
+              <img src={IVIS} alt="Portfolio1" className='portfolio__image' />
+            </div>
+            <h3>Informationsvisualisierung Wirtschaftsförderung</h3>
+            <h4>Tech Stack: Java Script, D3, HTML, CSS</h4>
+            <h4>Team: 2 Personen - Mein Teil: JS Programmierung</h4>
+            <div className='portfolio__buttons'>
+              <a href="https://ivis.eliasbraem.ch/" target="_blank" className='portfolio__btn portfolio__btn-primary'>Live Demo</a>
+              <a href="https://github.com/belibasCH/informationsvisualisierung" target="_blank" className='portfolio__btn'>GitHub</a>
+            </div>
+          </div>
+        </article>
 
 
 

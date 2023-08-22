@@ -23,9 +23,9 @@ function About() {
       <article className='about__card'>
           <FaAward className='about__icon'/>
           <h5>Studium</h5>
-          <small>Semester 6 von 8 <br></br></small>
-          <small>140 von 180 Credits <br></br></small>
-          <small>Abschluss 2024</small>
+          <small>Inforormatik mit Verfiefung in Design und Management</small><br></br>
+          <small>Semester 7 von 8 <br></br></small>
+          <small>Abschluss Sommer 2024</small>
         </article>
         <article className='about__card'>
           <HiThumbUp className='about__icon'/>
@@ -33,15 +33,22 @@ function About() {
           <small>5 Jahre Wordpress<br></br></small>
           <small>1 Jahr React</small>
         </article>
-        
-        
+                
       </div>
            <p>
-            Seit meiner Lehre zum Mediamatiker begeistert mich die Webentwicklung. In meinem Studium zum Informatiker, welches ich momentan an der Fachhoschule Nordwestschweiz in Brugg absolviere, hat sich dieses Interesse zu einer leidenschaft entwicklet. 
-            Nun möchte ich den nächsten Schritt machen und von einfachen Webseiten zu komplexeren Anwendungen und integrationen fortschreiten. Ich bin sehr motiviert, mit einem coolen Team aus Profis solche Problemstellungen anzugehen und richtig cooles Zeug zu coden!
+            Seit meiner Lehre zum Mediamatiker begeistert mich die Webentwicklung. 
+            In meinem Studium zum Informatiker, welches ich momentan an der Fachhoschule 
+            Nordwestschweiz in Brugg absolviere, hat mich das Coding-Fieber so richtig 
+            gepackt.
+            <br></br><br></br>
+            In verschiedenen Studiumsprojekten konnte ich bereits Erfahrungen mit verschiedenen
+            Technologien sammeln. Am meisten begeistert mich die Frontendentwicklung. Dort 
+            kann ich meine Kentnisse im Bereich Design und User Experience einbringen.
+            Ich bin sehr motiviert, mit einem coolen Team interssante  
+            Problemstellungen anzugehen und richtig cooles Zeug zu bauen.
+            
           </p>
-      <a href="#contact" className='btn btn-primary'>Kontaktiert mich!</a>
-    </div>
+      </div>
     </div>
     
 
