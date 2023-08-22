@@ -7,6 +7,7 @@ import INTERNETTER from '../../assets/internetter.jpg'
 import TISCHMESSE from '../../assets/Tischmesse.png'
 import SEVENSAT from '../../assets/sevenSat.jpg'
 import WEBCHAT from '../../assets/WebChat_s.png'
+import WEBGALERY from '../../assets/webgalery.png'
 
 
 function Portfolio() {
@@ -32,13 +33,13 @@ function Portfolio() {
         <article className='portfolio__card'>
           <div className="portfolio__content">
             <div className=''>
-              <img src={INTERNETTER} alt="Portfolio1" className='portfolio__image' />
+              <img src={WEBGALERY} alt="Portfolio1" className='portfolio__image' />
             </div>
             <h3>Bildergalerie für Events</h3>
             <h4>Tech Stack: React, Firebase</h4>
             <div className='portfolio__buttons'>
-              <a href="https://github.com/belibasCH/webgalery" target="_blank" className='portfolio__btn portfolio__btn-primary'>GitHub</a>
               <a href="https://webgalery.eliasbraem.ch/" target="_blank" className='portfolio__btn portfolio__btn-primary'>Live Demo</a>
+              <a href="https://github.com/belibasCH/webgalery" target="_blank" className='portfolio__btn'>GitHub</a>
 
             </div>
           </div>
@@ -52,12 +53,10 @@ function Portfolio() {
             <h3>Wordpress Websiten für viele Kleinkunden</h3>
             <h4>Tech Stack: Wordpress, HTML, CSS, Figma</h4>
             <div className='portfolio__buttons'>
-              <a href="https://www.raphaeljost.ch/" target="_blank" className='portfolio__btn'>raphaeljost.ch</a>
               <a href="https://zakudesign.ch/" target="_blank" className='portfolio__btn'>zakudesign.ch</a>
+              <a href="https://www.raphaeljost.ch/" target="_blank" className='portfolio__btn'>raphaeljost.ch</a>
               <a href="https://picboxi.ch/" target="_blank" className='portfolio__btn'>picboxi.ch</a>
-              <a href="https://bawatec.ch/" target="_blank" className='portfolio__btn'>bawatec.ch</a>
-              <a href="https://bawatec.ch/" target="_blank" className='portfolio__btn'>nexustelecom.com (Joomla)</a>
-            </div>
+                </div>
           </div>
         </article>
     
@@ -92,8 +91,9 @@ function Portfolio() {
             <h4>Tech Stack: Kotlin, Jetpack Compose</h4>
             <h4>Team: 3 Personen - Mein Teil: Figma Design, Fontend Entwicklung</h4>
             <div className='portfolio__buttons'>
-              <a href="" target="_blank" className='portfolio__btn portfolio__btn-primary'>Figma</a>
-              <a href="" target="_blank" className='portfolio__btn'>AppStore</a>
+              <a href="https://play.google.com/store/apps/details?id=seven.sat&hl=de&gl=US" target="_blank" className='portfolio__btn portfolio__btn-primary'>AppStore</a>
+              <a href="https://github.com/emoba-fhnw/ws6c-7sat" target="_blank" className='portfolio__btn '>GitHub</a>
+              <a href="https://www.figma.com/proto/HTHiQvk56sKBFZPzemw6uc/Gruppe-7---Andri%2C-Tobi%2C-Elias?page-id=9%3A60&node-id=73-5498&starting-point-node-id=87%3A5465&mode=design&t=Cy8riQnhuT0D929s-1" target="_blank" className='portfolio__btn'>Figma</a>
 
 
             </div>
@@ -108,9 +108,8 @@ function Portfolio() {
             <h4>Elm, Haskell, Docker, Figma</h4>
             <h4>Team: 2 Personen - Mein Teil: ELM Frontend, Figma Design</h4>
             <div className='portfolio__buttons'>
-              <a href="" target="_blank" className='portfolio__btn portfolio__btn-primary'>Demo Video</a>
-              <a href="" target="_blank" className='portfolio__btn'>GitHub-Frontend</a>
-              <a href="" target="_blank" className='portfolio__btn'>GitHub-Backend</a>
+              <a href="https://github.com/belibasCH/webchat_client" target="_blank" className='portfolio__btn portfolio__btn-primary'>GitHub-Frontend</a>
+              <a href="https://github.com/belibasCH/webchat-server" target="_blank" className='portfolio__btn'>GitHub-Backend</a>
             </div>
           </div>
         </article>

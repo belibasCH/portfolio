@@ -23,7 +23,7 @@ function About() {
       <article className='about__card'>
           <FaAward className='about__icon'/>
           <h5>Studium</h5>
-          <small>Inforormatik mit Verfiefung in Design und Management</small><br></br>
+          <small>Informatik mit Verfiefung in Design und Management</small><br></br>
           <small>Semester 7 von 8 <br></br></small>
           <small>Abschluss Sommer 2024</small>
         </article>
@@ -44,7 +44,7 @@ function About() {
             In verschiedenen Studiumsprojekten konnte ich bereits Erfahrungen mit verschiedenen
             Technologien sammeln. Am meisten begeistert mich die Frontendentwicklung. Dort 
             kann ich meine Kentnisse im Bereich Design und User Experience einbringen.
-            Ich bin sehr motiviert, mit einem coolen Team interssante  
+            Ich bin sehr motiviert, mit einem coolen Team interessante  
             Problemstellungen anzugehen und richtig cooles Zeug zu bauen.
             
           </p>

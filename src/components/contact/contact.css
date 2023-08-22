@@ -13,6 +13,10 @@
     border-radius: 1rem;
 
 }
+.shortcontact__content details a:hover{
+    color: var(--color-white);
+}
+
 .form__container{
     display: flex;
     flex-direction: column;

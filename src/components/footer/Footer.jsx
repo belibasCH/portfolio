@@ -4,7 +4,7 @@ import './footer.css'
 function Footer() {
   return (
     <div className='footer__container'>
-<div ><small>Erstellt mit React von Elias Bräm, Copyright 2022</small></div>
+<div ><small>Erstellt mit React von Elias Bräm, © 2023</small></div>
     </div>
     
   )
